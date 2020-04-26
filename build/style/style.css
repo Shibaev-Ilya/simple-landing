@@ -44,8 +44,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("/build/img/banners/banner.jpg");
-  background-position: center;
+  background: url("/build/img/banners/banner.jpg") no-repeat center;
   color: white; }
   .banner.banner-img {
     background-image: url("https://shibaev-ilya.github.io/simple-mark-up.github.io/build/img/banners/banner.jpg"); }
