@@ -47,6 +47,8 @@ header {
   background-image: url("/build/img/banners/banner.jpg");
   background-position: center;
   color: white; }
+  .banner.banner-img {
+    background-image: url("https://shibaev-ilya.github.io/simple-mark-up.github.io/build/img/banners/banner.jpg"); }
   .banner__title {
     font-style: normal;
     font-weight: normal;
@@ -111,6 +113,8 @@ header {
   flex-direction: column;
   align-items: center;
   background: url("/build/img/banners/ellipse.svg") no-repeat center #F7F7F7; }
+  .subscription.subs-img {
+    background: url("https://shibaev-ilya.github.io/simple-mark-up.github.io/build/img/banners/ellipse.svg") no-repeat center #F7F7F7; }
   .subscription__block {
     display: flex;
     flex-direction: column;
