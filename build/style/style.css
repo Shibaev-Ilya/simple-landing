@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:visited, a:active {
+    color: black; }
+
+header {
+  min-height: 218px; }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  header h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    margin-bottom: 45px; }
+  header a {
+    margin: 15px 7px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px; }
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+
+.banner {
+  grid-area: banner;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/build/img/banners/banner.jpg");
+  background-position: center;
+  color: white; }
+  .banner__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+    @media (max-width: 510px) {
+      .banner__title {
+        font-size: 44px; } }
+  .banner__discription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    max-width: 456px; }
+
+.review {
+  margin-top: 20px; }
+  .review h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .review__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start; }
+    @media (max-width: 768px) {
+      .review__wrap {
+        flex-direction: column;
+        align-items: center; } }
+  .review__block {
+    width: 32%; }
+    @media (max-width: 768px) {
+      .review__block {
+        width: 92%; } }
+    .review__block img {
+      width: 100%; }
+    .review__block h4 {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 23px;
+      line-height: 31px; }
+    .review__block p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      /* or 21px */ }
+
+.subscription {
+  position: relative;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("/build/img/banners/ellipse.svg") no-repeat center #F7F7F7; }
+  .subscription__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px; }
+  .subscription h3 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px; }
+  .subscription h4 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 0; }
+  .subscription p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center; }
+  .subscription a:visited, .subscription a:active {
+    color: white; }
+  .subscription__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 170px;
+    height: 47px;
+    background-color: #FF7931;
+    margin: 25px 0 36px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+
+footer {
+  min-height: 295px;
+  background-color: #575757;
+  color: white; }
+  footer nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  footer .h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px; }
+  footer a {
+    margin: 15px 7px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px; }
+    footer a:visited, footer a:active {
+      color: white; }
+  footer .social {
+    margin-top: 55px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center; }
+    footer .social a {
+      margin: 7px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 47px;
+      height: 47px;
+      background-color: white; }

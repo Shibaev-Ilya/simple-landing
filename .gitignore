@@ -1,0 +1,4 @@
+﻿#пакеты node.js для gulp
+node_modules/*
+#пакеты PhpStorm
+.idea/
